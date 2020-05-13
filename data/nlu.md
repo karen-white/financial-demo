@@ -8,6 +8,7 @@
 - yeah
 - yes please
 - yes plz
+- awesome
 
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
@@ -135,6 +136,8 @@
 - I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
 - from last monday until today
+- 10 DAI
+- for tomorrow morning at 9am
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -190,6 +193,7 @@
 - thanks
 - thanks goodbye
 - thank you and good bye
+- thank you Mr roboto
 
 ## intent:transfer_money
 - I want to pay John
