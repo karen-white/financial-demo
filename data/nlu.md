@@ -53,6 +53,10 @@
 - no way
 - nope
 - no thanks
+- oh u don't me ... sad.. i will work on this
+- stop please
+- let's start over
+- i forgot
 
 ## intent:goodbye
 - see you later
@@ -61,6 +65,7 @@
 - quit
 - stop
 - bye
+- good bye
 
 ## intent:greet
 - good morning
@@ -138,6 +143,8 @@
 - today
 - an hour ago
 - 100$
+- 1234
+- ¥300
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -210,3 +217,6 @@
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
 - i want transfer money to John
+
+## intent:chitchat
+- my name is manas, whats ur name
