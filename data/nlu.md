@@ -12,6 +12,7 @@
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
 - do transfers cost something?
+- do transfers cost anything
 - is there a transfer charge?
 - Is there a charge
 - will i be charged for a transaction?
