@@ -246,3 +246,12 @@
     - slot{"amount_transferred":"100.00"}
     - form{"name":null}
     - slot{"requested_slot":null}
+
+## New Story
+
+* greet
+    - utter_greet
+* deny
+    - utter_ok
+* goodbye
+    - utter_goodbye

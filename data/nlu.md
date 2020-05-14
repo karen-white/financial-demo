@@ -67,6 +67,7 @@
 - hey
 - good evening
 - hello
+- hey dude
 
 ## intent:inform
 - $10
@@ -161,6 +162,8 @@
 - i want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card
 - I want to pay $500 on my [gringots](credit_card) credit card on Sunday
 - I want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card today
+- pay my mastercard
+- I want to make a payment with my credit card
 
 ## intent:search_transactions
 - how much did I spend at [Target](vendor_name) this week?
@@ -205,3 +208,4 @@
 - transfer money
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
+- can you help me with making a transfer?
