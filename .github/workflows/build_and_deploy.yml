@@ -91,12 +91,11 @@ jobs:
           python .github/workflows/format_results.py
     - name: post cross-val results to PR
       if: steps.cvnlu.outcome == 'success'
-      uses: amn41/comment-on-pr@comment-file-contents
-      continue-on-error: true
+      uses: harupy/comment-on-pr@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        msg: results.md
+        filename: results.md
     - name: Train Model
       if: env.RUN_TRAINING == 'true'
       working-directory: ${{ github.workspace }}
