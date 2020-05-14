@@ -67,6 +67,7 @@
 - hey
 - good evening
 - hello
+- what s up ?
 
 ## intent:inform
 - $10
@@ -134,6 +135,8 @@
 - for saturday
 - I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
+- Tony
+- 20$
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -160,6 +163,7 @@
 - i want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card
 - I want to pay $500 on my [gringots](credit_card) credit card on Sunday
 - I want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card today
+- I want to make a payment
 
 ## intent:search_transactions
 - how much did I spend at [Target](vendor_name) this week?
@@ -176,6 +180,7 @@
 - can I look at past transactions
 - I want to search my transactions with [amazon](vendor_name)
 - can i seem my transactions with [target](vendor_name)
+- I want to see the last transaction
 
 ## intent:thankyou
 - thank you goodbye
@@ -203,3 +208,7 @@
 - transfer money
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
+
+## intent:chitchat
+- who are you ?
+- What is weather in india today

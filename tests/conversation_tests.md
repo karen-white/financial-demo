@@ -22,7 +22,6 @@
     - form: cc_payment_form
     - form{"name":null}
 
-
 ## pay credit card and check account balance inside form
 * pay_cc: i want to pay off my [justice bank](credit_card) credit card
     - cc_payment_form
@@ -77,14 +76,11 @@
 * thankyou: thank you
     - utter_noworries
 
-
 ## search transactions happy path no greet or thanks
 * check_earnings: how much did I earn in Jan 2019?
     - transact_search_form
     - form{"name":"transact_search_form"}
     - form{"name":null}
-
-
 
 ## search transactions switch to transfer money, deny
 * check_earnings: how much did i earn?
@@ -118,7 +114,6 @@
 * deny: no
     - utter_ok
 
-
 ## search transactions switch to transfer money
 * search_transactions: I want to search my spending history
     - transact_search_form
@@ -140,3 +135,20 @@
 * form: inform: january 2020
     - form: transact_search_form
     - form{"name":null}
+
+## Story from conversation with 40083b182de64db2b86754a94059a1e2 on May 14th 2020
+
+* greet: hi
+    - utter_greet
+* pay_cc: i want to make a transfer to my credit card
+    - cc_payment_form
+    - form{"name":"cc_payment_form"}
+    - slot{"requested_slot":"credit_card"}
+* inform: [iron bank](credit_card)
+    - slot{"credit_card":"iron bank"}
+    - cc_payment_form
+    - slot{"credit_card":"iron bank"}
+    - slot{"requested_slot":"payment_amount"}
+* inform: [300](amount-of-money)
+    - cc_payment_form
+    - slot{"payment_amount":300}
