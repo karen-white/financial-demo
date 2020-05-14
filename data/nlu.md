@@ -53,6 +53,8 @@
 - no way
 - nope
 - no thanks
+- oh u don't me ... sad.. i will work on this
+- stop please
 
 ## intent:goodbye
 - see you later
@@ -69,6 +71,8 @@
 - hey
 - good evening
 - hello
+- what's up?
+- Hi there
 
 ## intent:inform
 - $10
@@ -138,6 +142,8 @@
 - today
 - an hour ago
 - 100$
+- [gringotts](credit_card)
+- 1234
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -164,6 +170,7 @@
 - i want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card
 - I want to pay $500 on my [gringots](credit_card) credit card on Sunday
 - I want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card today
+- I need to pay my credit card
 
 ## intent:search_transactions
 - how much did I spend at [Target](vendor_name) this week?
@@ -182,6 +189,7 @@
 - can i seem my transactions with [target](vendor_name)
 - what is the last transaction
 - how much i spend in [starbucks](vendor_name)
+- how much did I spend at [starbucks](vendor_name)?
 
 ## intent:thankyou
 - thank you goodbye
@@ -210,3 +218,8 @@
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
 - i want transfer money to John
+- I'd like to transfer money to my cc
+
+## intent:chitchat
+- my name is manas, whats ur name
+- good bye
