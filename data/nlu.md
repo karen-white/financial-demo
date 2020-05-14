@@ -67,6 +67,7 @@
 - hey
 - good evening
 - hello
+- how's it going
 
 ## intent:inform
 - $10
@@ -203,3 +204,4 @@
 - transfer money
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
+- I want to send some cash to my friend
