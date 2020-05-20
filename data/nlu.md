@@ -34,6 +34,8 @@
 - what's my account balance?
 - what's my account balance
 - What's my account balance?
+- check my account
+- i want to show my [current balance](payment_amount)
 
 ## intent:check_earnings
 - How much money went into my account last month?
@@ -138,6 +140,8 @@
 - for saturday
 - I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
+- an hour ago
+- 100$
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -180,6 +184,8 @@
 - can I look at past transactions
 - I want to search my transactions with [amazon](vendor_name)
 - can i seem my transactions with [target](vendor_name)
+- what is the last transaction
+- how much i spend in [starbucks](vendor_name)
 
 ## intent:thankyou
 - thank you goodbye
@@ -207,3 +213,4 @@
 - transfer money
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
+- i want transfer money to John
