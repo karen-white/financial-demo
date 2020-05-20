@@ -8,6 +8,10 @@
 - yeah
 - yes please
 - yes plz
+- hell yes
+- yepyep
+- cool
+- uh huh
 
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
