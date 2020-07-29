@@ -142,6 +142,7 @@
 - today
 - an hour ago
 - 100$
+- Evan
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -198,6 +199,7 @@
 - thanks
 - thanks goodbye
 - thank you and good bye
+- great thank you
 
 ## intent:transfer_money
 - I want to pay John
@@ -214,3 +216,4 @@
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
 - i want transfer money to John
+- I want to transfer some money
