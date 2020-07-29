@@ -73,6 +73,7 @@
 - hey
 - good evening
 - hello
+- Hi
 
 ## intent:inform
 - $10
